@@ -1,6 +1,6 @@
 {
-    "name": "phpunit/phpunit-selenium",
-    "description": "Selenium Server integration for PHPUnit",
+    "name": "epoxa/phpunit-selenium",
+    "description": "Selenium Server integration for PHPUnit (epoxa fork)",
     "type": "library",
     "keywords": [
         "xunit",
@@ -8,9 +8,13 @@
         "testing",
         "selenium"
     ],
-    "homepage": "http://www.phpunit.de/",
     "license": "BSD-3-Clause",
     "authors": [
+        {
+            "name": "epoxa",
+            "email": "epoxa@vvproject.ru",
+            "role": "developer"
+        },
         {
             "name": "Giorgio Sironi",
             "email": "info@giorgiosironi.com",
@@ -31,10 +35,6 @@
             "role": "original developer"
         }
     ],
-    "support": {
-        "issues": "https://github.com/sebastianbergmann/phpunit-selenium/issues",
-        "irc": "irc://irc.freenode.net/phpunit"
-    },
     "require": {
         "php": ">=5.6",
         "phpunit/phpunit": "~5.0",
